@@ -16,9 +16,10 @@ background: linear-gradient(45deg, rgba(27,27,126,1) 0%, rgba(228,227,238,1) 33%
 }
 h1{
 	background: rgb(253,235,208);
-	background: linear-gradient(0deg, rgba(253,235,208,1) 3%, rgba(7,40,122,1) 34%, rgba(250,172,168,1) 75%);
+	background: linear-gradient(0deg, rgba(240,235,208,1) 3%, rgba(7,40,122,1) 34%, rgba(250,172,168,1) 75%);
 	-webkit-background-clip: text;
   -webkit-text-fill-color: transparent;  
+
 }
 h3,h4{
   background:linear-gradient(to right, #ddd6f3 0%, #faaca8  51%, #ddd6f3  100%);
@@ -78,16 +79,16 @@ select:hover{
   justify-content: center;
   align-items: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
-  border-radius: 1rem;   
-  background: -webkit-linear-gradient(to right, #155799, #159957);  
-  background: linear-gradient(to right, #155799, #159957); 
+  border-radius: 1rem; 
+background: -webkit-linear-gradient(to right, #155799, #159957);  
+background: linear-gradient(to right, #155799, #159957); 
 
 }
 
 .current-time {
   background-image: linear-gradient(to right, #ddd6f3 0%, #faaca8  51%, #ddd6f3  100%);
             margin: 10px;
-            padding: 15px 45px;
+            padding: 15px 30px;
             text-align: center;
             text-transform: uppercase;
             transition: 0.5s;
@@ -113,7 +114,7 @@ select:hover{
 .submit-button {
   background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
             margin: 10px;
-            padding: 15px 45px;
+            padding: 15px 15px;
             text-align: center;
             text-transform: uppercase;
             transition: 0.5s;
@@ -143,11 +144,6 @@ select:hover{
   font-weight: bold;
   border-radius: 0.5rem;
 }
-/* .set-alarm-container-title{
-  color: #48c9b0 ; Dark text color
-  font-weight: bold;
-  font-size: 1rem;
-} */
 
 .alarm {
   display: flex;
@@ -161,7 +157,7 @@ select:hover{
             color: white;            
             box-shadow: 0 0 20px #eee;
   padding: 0.5rem 1rem;
-  margin-top: 0.5rem; ]
+  margin-top: 0.5rem; 
 }
 .alarm:hover{
    background-position: right center; 
@@ -169,7 +165,7 @@ select:hover{
             text-decoration: none;
 }
 
-.alarm .delete-alarm {
+ .delete-alarm {
   background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
    color: #fabcaf;
   font-weight: bold;
@@ -193,7 +189,7 @@ select:hover{
   
   color:  #48c9b0 ; 
   padding: 1rem; 
-  border-top-left-radius: 1rem; 
+  border-top-left-radius: 1rem;
   border-top-right-radius: 1rem; 
 }
 
